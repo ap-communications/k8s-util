@@ -20,6 +20,13 @@ https://techlife.cookpad.com/entry/2019/03/05/115000
 ## 12 Factor App - モダンなサービス運営に必要な12のインフラ的要素
 https://qiita.com/awakia/items/04135ea89be787be1cfc
 
+- 10.開発環境と本番環境の一致
+    - 理想
+        - 時間：数分から数時間で書いたコードが本番にデプロイされる
+        - 人：開発する人とデプロイする人が同じ
+        - ツール：ローカルとサーバーでほぼ同じ
+    - dokcerの普及により、↑のハードルがずっと下がった印象
+
 ## Locust コトハジメ
 https://qiita.com/yamionp/items/17ffcc465272ad83c490)
 
