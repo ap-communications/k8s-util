@@ -10,6 +10,7 @@
 
 ### 耐障害性試験
 - [postgresql-on-k8sで障害テスト1-dbノード](#postgresql-on-k8sで障害テスト1-dbノード)
+- [high-reliability-infrastructure-migrations](#high-reliability-infrastructure-migrations)
 
 ### 障害対応/OnCallReadiness
 - [brendan-gregg---cloud-performance-root-cause-analysis-at-netflix](#brendan-gregg---cloud-performance-root-cause-analysis-at-netflix)
