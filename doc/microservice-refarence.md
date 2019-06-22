@@ -30,3 +30,10 @@ https://qiita.com/awakia/items/04135ea89be787be1cfc
 ## Locust コトハジメ
 https://qiita.com/yamionp/items/17ffcc465272ad83c490)
 
+- python製の負荷試験ツール
+- 特徴
+    - シナリオを Python で記述
+    - 分散&スケーラブル
+    - Web ベース管理画面
+    - 高いカスタマイズ性
+
