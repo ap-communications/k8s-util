@@ -35,6 +35,9 @@ https://techlife.cookpad.com/entry/2018-odaiba-strategy
 ## マイクロサービス化を支える継続的切り替え術
 https://techlife.cookpad.com/entry/2019/03/05/115000
 
+- サービス分離作業とは
+    - 巨大な一つのコードベースから、他に対する依存が少ない、もしくは関係のない機能・サービスなどをマイクロサービスとして分離すること
+
 ---
 ## Locust コトハジメ
 https://qiita.com/yamionp/items/17ffcc465272ad83c490)
