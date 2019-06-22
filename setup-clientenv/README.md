@@ -11,6 +11,10 @@ set of CLI tool for k8s/docke
 ### dive
 - dockerのOverlaFSの中身を全て表示
 
+### [k9s](https://github.com/derailed/k9s)
+- pod等の情報をまとめてGUI Likeに表示
+
+
 # TODO
 - For RHEL/centos or Devian env & via `make install` powered by Makefile .. 
     - implement bash completion
