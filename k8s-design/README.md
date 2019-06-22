@@ -21,3 +21,13 @@ https://qiita.com/tzkoba/items/b412ccd0fd3c7f6a4ab4
 https://twitter.com/b0rk/status/1108154770211119104
 - SPOFのetcdが死ぬとk8sは完全停止する
 - slow diskでもやっぱり死ぬ
+
+## Brendan Gregg - Cloud Performance Root Cause Analysis at Netflix
+https://twitter.com/deeeet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+
+- 障害シナリオ毎のMethotologyの準備
+
+## プロダクションレディマイクロサービス
+https://www.oreilly.co.jp/books/9784873118154/
+
+- production ready check listがとても参考になる
