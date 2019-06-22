@@ -31,6 +31,7 @@ https://techlife.cookpad.com/entry/2018-odaiba-strategy
 
 ## マイクロサービス化を支える継続的切り替え術
 https://techlife.cookpad.com/entry/2019/03/05/115000
+
 ---
 ## Locust コトハジメ
 https://qiita.com/yamionp/items/17ffcc465272ad83c490)
