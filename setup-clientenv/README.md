@@ -2,10 +2,14 @@
 set of CLI tool for k8s/docke
 
 # Useful Tools
-- kubectx
-- stern
+### kubectx
+- contextの切替
 
-- dive
+### stern
+- 複数のpodのログの閲覧
+
+### dive
+- dockerのOverlaFSの中身を全て表示
 
 # TODO
 - For RHEL/centos or Devian env & via `make install` powered by Makefile .. 
