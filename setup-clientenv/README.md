@@ -2,7 +2,7 @@
 set of CLI tool for k8s/docke
 
 # Useful Tools
-### kubectx
+### [kubectx](https://github.com/ahmetb/kubectx)
 - contextの切替
 
 ### stern
