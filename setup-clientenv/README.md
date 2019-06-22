@@ -14,6 +14,9 @@ set of CLI tool for k8s/docke
 ### [k9s](https://github.com/derailed/k9s)
 - pod等の情報をまとめてGUI Likeに表示
 
+### [kube-ops-view](https://github.com/hjacobs/kube-ops-view)
+- node毎のpodの一覧をGUI Likeに表示
+
 
 # TODO
 - For RHEL/centos or Devian env & via `make install` powered by Makefile .. 
