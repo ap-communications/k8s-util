@@ -2,6 +2,11 @@
 
 ## MicroServiceArchitecture
 * [『Microservice Patterns』 まとめ](#microservice-patterns-まとめ)
+
+## 実際の移行事例
+- [クックパッド基幹システムのmicroservices化戦略](#クックパッド基幹システムのmicroservices化戦略-お台場プロジェクト1年半の軌跡)
+- [マイクロサービス化を支える継続的切り替え術](#マイクロサービス化を支える継続的切り替え術)
+
 ---
 ## 『Microservice Patterns』 まとめ
 https://qiita.com/yasuabe2613/items/3bff44e662c922083264
