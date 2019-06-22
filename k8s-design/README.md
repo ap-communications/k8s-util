@@ -37,3 +37,8 @@ https://twitter.com/deeeet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eautho
 https://www.oreilly.co.jp/books/9784873118154/
 
 - production ready check listがとても参考になる
+
+## kubernetes-failure-stories
+https://github.com/hjacobs/kubernetes-failure-stories
+
+- 各社の障害事例集
