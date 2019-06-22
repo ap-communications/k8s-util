@@ -37,7 +37,7 @@ https://techlife.cookpad.com/entry/2019/03/05/115000
 
 - サービス分離作業とは
     - 巨大な一つのコードベースから、他に対する依存が少ない、もしくは関係のない機能・サービスなどをマイクロサービスとして分離すること
-
+- NGINXを使ったサービス分離手法解説
 ---
 ## Locust コトハジメ
 https://qiita.com/yamionp/items/17ffcc465272ad83c490)
