@@ -60,4 +60,4 @@ https://github.com/hjacobs/kubernetes-failure-stories
 ## 10 Ways to Shoot Yourself in the Foot with Kubernetes
 https://www.youtube.com/watch?v=QKI-JRs2RIE
 
-- k8sのトラブル集、DNSの故障、containerdが壊れた、etc
+- k8sのトラブル集、DNSの故障、container runtimeの不具合、etc
