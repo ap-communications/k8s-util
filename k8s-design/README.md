@@ -56,3 +56,8 @@ https://www.oreilly.co.jp/books/9784873118154/
 https://github.com/hjacobs/kubernetes-failure-stories
 
 - 各社の障害事例集
+
+## 10 Ways to Shoot Yourself in the Foot with Kubernetes
+https://www.youtube.com/watch?v=QKI-JRs2RIE
+
+- k8sのトラブル集、DNSの故障、containerdが壊れた、etc
