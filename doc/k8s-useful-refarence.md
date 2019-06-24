@@ -4,7 +4,7 @@
 - [Boosting your kubectl productivity](https://itnext.io/boosting-your-kubectl-productivity-b348f7c25712)
 - [github / kubectl-bindrole](https://github.com/Ladicle/kubectl-bindrole)
 - [kubectl get all は全リソースの情報を表示しない](https://text.superbrothers.dev/190616-kubectl-get-all-does-not-include-most-resources/)
-- [RBACを](https://twitter.com/matsuu/status/1143167788405547009)
+- [RBACをグラフで表示](https://github.com/team-soteria/rback)
 
 ### 2. Architectureと基本的な概念
 - [Kubernetesがいかに自動化の考え方を変えたか?](https://deeeet.com/writing/2018/12/13/how-kubernetes-change-our-way-of-automation/)
