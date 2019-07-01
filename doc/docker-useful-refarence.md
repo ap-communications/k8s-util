@@ -26,3 +26,7 @@
 ### 7.entrypointによく利用されるスクリプト
 - [Dockerize](https://github.com/jwilder/dockerize)
 - [tini](https://udzura.hatenablog.jp/entry/2018/04/16/162024)
+
+### 8.dockerd/containerd以外のランタイム
+- [Firecrackerとは何か](https://speakerdeck.com/pottava/what-is-firecracker)
+- [ユビキタスデータセンターOSの文脈におけるコンテナ実行環境の分類](https://hb.matsumoto-r.jp/entry/2019/02/08/135354)
