@@ -2,26 +2,26 @@
 
 # 目次
 ## 1.収容性/スケーラビリティと性能
-### 性能/収容性設計
+### 1-1.性能/収容性設計
 ※WorkerNodeのスケーラビリティ設計が知りたいのだけど、いい資料が見つからない。。
 
-### 性能試験
+### 1-2.性能試験
 - [locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う](#locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う)
 
 
 ## 2.耐障害性
-### 耐障害性設計
+### 2-1.耐障害性設計
 - TBD
 
-### 耐障害性試験
+### 2-2.耐障害性試験
 - [postgresql-on-k8sで障害テスト1-dbノード](#postgresql-on-k8sで障害テスト1-dbノード)
 - [high-reliability-infrastructure-migrations](#high-reliability-infrastructure-migrations)
 
 ## 3.運用性
-### Upgradeの時の方法論
+### 3-1.Upgradeの時の方法論
 - TBD
 
-### 障害対応/OnCallReadiness
+### 3-2.障害対応/OnCallReadiness
 - [brendan-gregg---cloud-performance-root-cause-analysis-at-netflix](#brendan-gregg---cloud-performance-root-cause-analysis-at-netflix)
 - [プロダクションレディマイクロサービス](#プロダクションレディマイクロサービス)
 ---
