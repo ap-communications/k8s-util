@@ -10,6 +10,7 @@
 ### 2. Namespace, cgroup等のLinuxの機能の解説
 - [コンテナ未経験新人が学ぶコンテナ技術入門](https://www.slideshare.net/KoheiTokunaga/ss-122754942)
 - [コンテナ技術入門 - 仮想化との違いを知り、要素技術を触って学ぼう](https://employment.en-japan.com/engineerhub/entry/2019/02/05/103000)
+- [LXCで学ぶコンテナ入門 －軽量仮想化環境を実現する技術](https://gihyo.jp/admin/serial/01/linux_containers)
 
 ### 3. Network周りの解説
 - [Docker Networking Internals: How Docker uses Linux iptables and interfaces](https://www.securitynik.com/2016/12/docker-networking-internals-how-docker_16.html)
