@@ -1,6 +1,7 @@
 # k8sの設計を考えるディレクトリ
 
-# 収容性/スケーラビリティと性能
+# 目次
+## 収容性/スケーラビリティと性能
 ### 性能/収容性設計
 ※WorkerNodeのスケーラビリティ設計が知りたいのだけど、いい資料が見つからない。。
 
@@ -8,7 +9,7 @@
 - [locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う](#locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う)
 
 
-# 耐障害性
+## 耐障害性
 ### 耐障害性設計
 - TBD
 
@@ -16,7 +17,7 @@
 - [postgresql-on-k8sで障害テスト1-dbノード](#postgresql-on-k8sで障害テスト1-dbノード)
 - [high-reliability-infrastructure-migrations](#high-reliability-infrastructure-migrations)
 
-# 運用性
+## 運用性
 ### Upgradeの時の方法論
 - TBD
 
