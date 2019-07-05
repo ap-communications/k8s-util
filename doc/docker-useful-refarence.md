@@ -5,6 +5,7 @@
 ### 1. DockerFileの操作と書き方
 - [Dockerfile を書くためのベストプラクティス解説編](https://www.slideshare.net/zembutsu/explaining-best-practices-for-writing-dockerfiles)
 - [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/)
+- [Dockerfileの可読性とキャッシュ、イメージのサイズの戦略について考えてみた](https://speakerdeck.com/inductor/build-containers-with-dockerfile-best-practicies)
 
 ### 2. Namespace, cgroup等のLinuxの機能の解説
 - [コンテナ未経験新人が学ぶコンテナ技術入門](https://www.slideshare.net/KoheiTokunaga/ss-122754942)
