@@ -35,7 +35,7 @@ https://qiita.com/tzkoba/items/b412ccd0fd3c7f6a4ab4
 ## High Reliability Infrastructure migrations 
 https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations?slide=12
 
-- 手書きスライドの人
+- [手書きスライドの人](https://jvns.ca/)
 - k8sの色々なコンポーネントに疑似障害を発生させながら、性能エンジニアリングを進めていく
 
 ---
