@@ -10,6 +10,7 @@
 
 # 耐障害性
 ### 耐障害性設計
+- TBD
 
 ### 耐障害性試験
 - [postgresql-on-k8sで障害テスト1-dbノード](#postgresql-on-k8sで障害テスト1-dbノード)
@@ -17,6 +18,8 @@
 
 # 運用性
 ### Upgradeの時の方法論
+- TBD
+
 ### 障害対応/OnCallReadiness
 - [brendan-gregg---cloud-performance-root-cause-analysis-at-netflix](#brendan-gregg---cloud-performance-root-cause-analysis-at-netflix)
 - [プロダクションレディマイクロサービス](#プロダクションレディマイクロサービス)
