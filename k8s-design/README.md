@@ -3,7 +3,7 @@
 # 目次
 ## 1.収容性/スケーラビリティと性能
 ### 1-1.性能/収容性設計
-※WorkerNodeのスケーラビリティ設計が知りたいのだけど、いい資料が見つからない。。
+- [Kubernetesアンチパターン](#Kubernetesアンチパターン)
 
 ### 1-2.性能試験
 - [locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う](#locustをkubernetes上で構築して分散負荷テストしてlinkerdでサービスメッシュのデバッグを行う)
@@ -27,6 +27,11 @@
 
 ### 3-3.バックアップ＆リストア
 - [SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？](#SpotifyがミスによりKubernetesの本番クラスタを二度も削除)
+---
+
+## Kubernetesアンチパターン
+https://nekop.github.io/slides/hbstudy78.html#/
+
 ---
 
 ## LocustをKubernetes上で構築して分散負荷テストして、Linkerdでサービスメッシュのデバッグを行う
