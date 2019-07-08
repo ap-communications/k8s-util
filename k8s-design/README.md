@@ -24,6 +24,9 @@
 ### 3-2.障害対応/OnCallReadiness
 - [brendan-gregg---cloud-performance-root-cause-analysis-at-netflix](#brendan-gregg---cloud-performance-root-cause-analysis-at-netflix)
 - [プロダクションレディマイクロサービス](#プロダクションレディマイクロサービス)
+
+### 3-3.バックアップ＆リストア
+- [SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？](#SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？)
 ---
 
 ## LocustをKubernetes上で構築して分散負荷テストして、Linkerdでサービスメッシュのデバッグを行う
@@ -65,3 +68,8 @@ https://github.com/hjacobs/kubernetes-failure-stories
 https://www.youtube.com/watch?v=QKI-JRs2RIE
 
 - k8sのトラブル集、DNSの故障、container runtimeの不具合、etc
+
+# SpotifyがミスによりKubernetesの本番クラスタを二度も削除。しかし顧客へのサービスにほとんど影響しなかったのはなぜか？
+https://www.publickey1.jp/blog/19/spotifykubernetes.html#
+
+- バックアップ＆リストア試験超大事という話
