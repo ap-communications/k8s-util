@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=QKI-JRs2RIE
 
 - k8sのトラブル集、DNSの故障、container runtimeの不具合、etc
 
-# SpotifyがミスによりKubernetesの本番クラスタを二度も削除
+## SpotifyがミスによりKubernetesの本番クラスタを二度も削除
 https://www.publickey1.jp/blog/19/spotifykubernetes.html#
 
 - バックアップ＆リストア試験超大事という話
