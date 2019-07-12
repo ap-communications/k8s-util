@@ -55,7 +55,7 @@ https://twitter.com/b0rk/status/1108154770211119104
 
 ---
 ## Brendan Gregg - Cloud Performance Root Cause Analysis at Netflix
-https://twitter.com/deeeet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+http://www.brendangregg.com/blog/2019-04-26/yow2018-cloud-performance-netflix.html
 
 - 障害シナリオ毎のMethotologyの準備
 
