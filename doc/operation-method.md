@@ -1,5 +1,30 @@
 # k8sの運用手順あれこれ
 
+## nodeの状態の確認
+### 各種Pressureの発生有無
+
+```bash
+root@liva01:~# k describe node liva02 | grep Conditions -A 6 | awk '{printf "%20-s %10-s\n", $1,$2}'
+Conditions:                    
+Type                 Status    
+----                 ------    
+MemoryPressure       False     
+DiskPressure         True      
+PIDPressure          False     
+Ready                True  
+```
+
+### eventの閲覧
+
+以下で時系列順にソートできる。
+```bash
+root@liva02:kubernetes# kubectl get events --sort-by=.metadata.creationTimestamp
+LAST SEEN   TYPE      REASON                    OBJECT                        MESSAGE
+39m         Normal    SuccessfulCreate          replicaset/nginx-7bb7cd8db5   Created pod: nginx-7bb7cd8db5-hbn9m
+39m         Normal    SuccessfulCreate          replicaset/nginx-7bb7cd8db5   Created pod: nginx-7bb7cd8db5-czjsh
+39m         Normal    ScalingReplicaSet         deployment/nginx              Scaled up replica set nginx-7bb7cd8db5 to 5
+```
+
 ## クラスタ状態の確認
 
 
@@ -106,3 +131,11 @@ NAME     STATUS   ROLES    AGE   VERSION
 liva01   Ready    <none>   8d    v1.15.1
 liva02   Ready    <none>   8d    v1.15.1
 ```
+
+### Evicted状態のpodの手動削除
+
+```bash
+kubectl get pods --all-namespaces -ojson | jq -r '.items[] | select(.status.reason!=null) | select(.status.reason | contains("Evicted")) | .metadata.name + " " + .metadata.namespace' | xargs -n2 -l bash -c 'kubectl delete pods $0
+```
+
+https://github.com/kubernetes/kubernetes/issues/55051
