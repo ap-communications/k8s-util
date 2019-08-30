@@ -4,7 +4,7 @@
 ### 各種Pressureの発生有無
 
 ```bash
-root@liva01:~# k describe node liva02 | grep Conditions -A 6 | awk '{printf "%20-s %10-s\n", $1,$2}'
+root@liva01:~# k describe node <nodename> | grep Conditions -A 6 | awk '{printf "%20-s %10-s\n", $1,$2}'
 Conditions:                    
 Type                 Status    
 ----                 ------    
@@ -61,7 +61,7 @@ root@liva01:bin#
 ```
 
 ```bash
-# ETCDCTL_API=2 etcdctl --endpoints https://192.168.0.120:2379 member list
+# ETCDCTL_API=2 etcdctl --endpoints https://<IPaddr>:<port> member list
 7d14235276a52eb8: name=liva02 peerURLs=http://192.168.0.121:2380 clientURLs=https://192.168.0.121:2379 isLeader=true
 8dcfe04331fa3be7: name=liva01 peerURLs=http://192.168.0.120:2380 clientURLs=https://192.168.0.120:2379 isLeader=false
 cd7aeeba2adc4219: name=liva03 peerURLs=http://192.168.0.122:2380 clientURLs=https://192.168.0.122:2379 isLeader=false
@@ -71,7 +71,7 @@ cd7aeeba2adc4219: name=liva03 peerURLs=http://192.168.0.122:2380 clientURLs=http
 ### kubernetesがetcdに格納のデータの確認
 
 ```bash
-root@liva01:bin# etcdctl --endpoints https://192.168.0.120:2379 get "" --prefix --keys-only | head
+root@liva01:bin# etcdctl --endpoints https://<IPaddr>:<port> get "" --prefix --keys-only | head
 /registry/apiextensions.k8s.io/customresourcedefinitions/alertmanagers.monitoring.coreos.com
 /registry/apiextensions.k8s.io/customresourcedefinitions/prometheuses.monitoring.coreos.com
 /registry/apiextensions.k8s.io/customresourcedefinitions/prometheusrules.monitoring.coreos.com
@@ -85,7 +85,7 @@ root@liva01:bin# etcdctl --endpoints https://192.168.0.120:2379 get "" --prefix 
 - 各URIの意味については、[こちらの記事](https://jakubbujny.com/2018/09/02/what-stores-kubernetes-in-etcd/)を参照
 
 ```bash
-root@liva01:bin# ETCDCTL_API=3 etcdctl --endpoints https://192.168.0.120:2379 get "/registry/apiextensions.k8s.io/customresourcedefinitions/alertmanagers.monitoring.co
+root@liva01:bin# ETCDCTL_API=3 etcdctl --endpoints https://<IPaddr>:<port> get "/registry/apiextensions.k8s.io/customresourcedefinitions/alertmanagers.monitoring.co
 reos.com" --prefix -w json | jq .
 {
   "header": {
@@ -135,7 +135,7 @@ liva02   Ready    <none>   8d    v1.15.1
 ### Evicted状態のpodの手動削除
 
 ```bash
-kubectl get pods --all-namespaces -ojson | jq -r '.items[] | select(.status.reason!=null) | select(.status.reason | contains("Evicted")) | .metadata.name + " " + .metadata.namespace' | xargs -n2 -l bash -c 'kubectl delete pods $0
+kubectl get pods --all-namespaces -ojson | jq -r '.items[] | select(.status.reason!=null) | select(.status.reason | contains("Evicted")) | .metadata.name + " " + .metadata.namespace' | xargs -n2 -l bash -c 'kubectl delete pods $0'
 ```
 
 https://github.com/kubernetes/kubernetes/issues/55051
